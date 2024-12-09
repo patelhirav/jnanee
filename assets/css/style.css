@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: linear-gradient(to right, #e4ffff, #fef9f9);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.custom-navbar {
+  background: #fff;
+  box-shadow: 0px 2px 28px rgba(0, 0, 0, 0.09);
+  position: sticky;
+  padding: 30px 15px;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+.navbar.scrolled {
+  background: #fff;
+}
+
+.logo {
+  height: 30px;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 24px;
+}
+
+.nav-link {
+  color: #6c6c6c;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.active-link {
+  color: #000;
+  font-weight: 500;
+}
+
+.btn-login {
+  background-color: #584ddb;
+  color: #fff;
+  border: none;
+  padding: 15px 32px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+  background-color: #4e46a4;
+  color: white;
+}
+
+/* Header */
+.header-section {
+  padding: 80px 0;
+  text-align: left;
+}
+
+.header-content h1 {
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.header-content .highlight {
+  color: #30bead;
+  text-decoration: underline;
+}
+
+.header-content p {
+  color: #6c6c6c;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.form-group {
+  margin-top: 20px;
+  position: relative;
+}
+
+.email-input {
+  padding: 25px 30px;
+  padding-right: 140px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#mail-icon {
+  top: 39%;
+  left: 4%;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 1;
+}
+
+input[type="email"]::placeholder {
+  margin-left: 5px;
+}
+
+.img-cus {
+  width: 825px;
+  margin-left: 30px;
+}
+
+.btn-cus {
+  background-color: #584ddb;
+  padding: 15px 32px;
+  color: white;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+}
+
+.btn-cus:hover {
+  background-color: #4e46a4;
+}
+
+
+@media (max-width: 768px) {
+  .header-content h1 {
+    font-size: 48px;
+  }
+
+  .email-input {
+    width: 100%;
+    padding-right: 140px;
+  }
+
+  .img-cus {
+    width: 100%;
+  }
+}
+
+
+/* Section */
+
+.about-section {
+  background-color: white;
+  padding: 60px 0;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #30bead;
+}
+
+.about-section h3 {
+  font-size: 44px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.about-section .achieve {
+  color: #584ddb;
+  text-decoration: underline;
+}
+
+.about-section p {
+  font-size: 18px;
+  color: #6c6c6c;
+  margin-top: 10px;
+}
+
+
+.about-section h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.about-section .btn-3 {
+  padding: 15px 32px;
+  background-color: #584ddb;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.about-section .about-img1 {
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.about-section .icon-text {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.about-section .icon {
+  flex: 0 0 auto;
+  width: 50px;
+  height: 50px;
+  height: 50px;
+  background-color: #e6f7f7;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+}
+
+
+/* about jnanee section */
+
+.about-jnanee{
+  background-color: white;
+  padding: 60px 0;
+  background: linear-gradient(to right, #e4ffff, #fef9f9);
+}
+
+.about-jnanee h4{
+  font-size: 18px;
+  font-weight: 500;
+  color: #30bead;
+}
+
+.about-jnanee h2{
+  font-size: 44px;
+  margin-bottom: 30px;
+}
+
+.about-jnanee span{
+  color: #584ddb;
+  text-decoration: underline;
+}
+
+.feature-icon{
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+.card{
+  border: none;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+
+}
+
+.card:hover{
+  background-color: #584ddb;
+  color: white;
+}
+
+.card-title{
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.card-text{
+  font-size: 18px;
+  color: #7b7b8a;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .feature-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+}
